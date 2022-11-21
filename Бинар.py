@@ -1,5 +1,7 @@
 RawInput = input('Введите последовательность чисел через пробел: ')
 int_array = [int(i) for i in RawInput.split (' ') if i.isdigit()]
+list.sort(int_array)
+print(int_array)
  
 while True:
      try:
