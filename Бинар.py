@@ -28,7 +28,7 @@ while True:
     except ValueError:
         print('Введите вероное число')
     except Exception:
-        print('Не диапазон')
+        print('В не диапазон')
 
 int_array = [i for i in range(1, 100)]
 
